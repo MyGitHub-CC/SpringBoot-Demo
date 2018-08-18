@@ -1,0 +1,15 @@
+-- 项目要用到的数据
+-- 创建数据库，名称是 how2java
+create database how2java;
+-- 创建个分类表，字段很简单，就id和name
+use how2java;
+CREATE TABLE category_ (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(30),
+  PRIMARY KEY (id)
+) DEFAULT CHARSET=UTF8;
+-- 插入4条数据
+insert into category_ values(null,'category 1');
+insert into category_ values(null,'category 2');
+insert into category_ values(null,'category 3');
+insert into category_ values(null,'category 4');
