@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- 声明在标签里面的信息是配置信息 -->
+<configuration>
+
+	<!-- 声明在该标签里面的信息是一个个的别名 -->
+	<typeAliases>
+		<!-- 声明要使用别名的对象（全路径）用java注解的话可以使用@Alias注解声明 -->
+		<typeAlias alias="category" type="com.demo.springboot.pojo.Category" />
+	</typeAliases>
+
+</configuration>
